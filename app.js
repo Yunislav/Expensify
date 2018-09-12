@@ -89,7 +89,6 @@ var UIcontroller = (function (){
       newHTML = newHTML.replace('%value%', obj.value);
 
       // Insert HTML into the DOM
-      debugger;
       document.querySelector(element).insertAdjacentHTML('beforeend', newHTML);
     },
     
